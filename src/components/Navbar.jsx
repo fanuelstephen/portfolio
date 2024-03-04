@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { MdPersonAddAlt } from "react-icons/md";
 
