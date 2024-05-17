@@ -11,7 +11,7 @@ function Contact() {
         method="POST"
         className="flex flex-col max-w-[600px] w-full text-gray-300 bg-red"
       >
-        <div className="pb-8">
+        <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Contact
           </p>
@@ -23,13 +23,13 @@ function Contact() {
           type="text"
           placeholder="Name"
           name="name"
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] p-2 text-zinc-950"
         />
         <input
           type="email"
           placeholder="Email"
           name="email"
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 bg-[#ccd6f6] text-zinc-950"
         />
         <textarea
           name="message"
