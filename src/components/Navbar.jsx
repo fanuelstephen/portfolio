@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { MdPersonAddAlt } from "react-icons/md";
 import { Link } from "react-scroll";
-// import fanuelLogo from "../assets/fanu_logo.png";
 import fanuelLogo from "../assets/fanu_logo2.png";
 
 function Navbar() {
