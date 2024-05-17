@@ -4,11 +4,12 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="bg-black w-full h-screen flex items-center justify-center p-4"
+      className="bg-black w-full h-[40rem] flex items-center justify-center"
     >
       <form
-        action="https://getform.io/f/pbnvnmyb" method="POST"
-        className="flex flex-col max-w-[600px] w-full text-gray-300"
+        action="https://getform.io/f/pbnvnmyb"
+        method="POST"
+        className="flex flex-col max-w-[600px] w-full text-gray-300 bg-red"
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">

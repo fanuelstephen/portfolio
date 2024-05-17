@@ -20,7 +20,6 @@ function Navbar() {
           <img src={fanuelLogo} alt="" className="w-[200px]" />
         </h1>
       </div>
-      {/* menud   bg-[#0a192f]*/}
 
       <ul className="hidden md:flex">
         <li>
