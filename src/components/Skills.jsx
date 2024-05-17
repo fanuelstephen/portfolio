@@ -8,7 +8,7 @@ import Tailwind from "../assets/tailwind.png";
 
 function Skills() {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-screen bg-black text-gray-300">
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -19,17 +19,17 @@ function Skills() {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 ">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img className="w-20 mx-auto mt-5" src={HTML} alt="HTML icons  " />
             <p className="py-4">HTML</p>
           </div>
 
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img className="w-20 mx-auto mt-5" src={CSS} alt="HTML icons  " />
             <p className="py-4">CSS</p>
           </div>
 
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto mt-5"
               src={Javascript}
@@ -38,7 +38,7 @@ function Skills() {
             <p className="py-4">JavaScript</p>
           </div>
 
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto mt-5"
               src={ReactImg}
@@ -47,7 +47,7 @@ function Skills() {
             <p className="py-4">React</p>
           </div>
 
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto mt-5"
               src={Tailwind}
@@ -56,7 +56,7 @@ function Skills() {
             <p className="py-4">Tailwind</p>
           </div>
 
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <div className="shadow-md shadow-[#333] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto mt-5"
               src={Github}

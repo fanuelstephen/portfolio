@@ -4,10 +4,10 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="bg-[#0a192f] w-full h-screen flex items-center justify-center p-4"
+      className="bg-black w-full h-screen flex items-center justify-center p-4"
     >
       <form
-        action=""
+        action="https://getform.io/f/pbnvnmyb" method="POST"
         className="flex flex-col max-w-[600px] w-full text-gray-300"
       >
         <div className="pb-8">
@@ -33,7 +33,7 @@ function Contact() {
         <textarea
           name="message"
           rows="10"
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ccd6f6] p-2 text-zinc-950"
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 py-2 px-6 my-8 mx-auto flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
